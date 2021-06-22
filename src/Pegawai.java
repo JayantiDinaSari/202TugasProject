@@ -23,4 +23,23 @@ public class Pegawai {
 
     }
 
+    public Pegawai() {
+    }
+
+    public Pegawai(int id, String nik, String nama, Date tanggalLahir, String alamat, String jabatan, String golongan, String status) {
+        this.id = id;
+        this.nik = nik;
+        this.nama = nama;
+        this.tanggalLahir = tanggalLahir;
+        this.alamat = alamat;
+        this.jabatan = jabatan;
+        this.golongan = golongan;
+        this.status = status;
+    }
+
+    public Pegawai(int id, String nik, String nama) {
+        this.id = id;
+        this.nik = nik;
+        this.nama = nama;
+    }
 }
