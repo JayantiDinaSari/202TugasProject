@@ -1,4 +1,4 @@
-public class PegawaiKontrak {
+public class PegawaiKontrak extends Pegawai {
     private String nikk;
     private String asalInstansi;
     private int lamaKontrak;
@@ -32,5 +32,15 @@ public class PegawaiKontrak {
 
     public void setLamaKontrak(int lamaKontrak) {
         this.lamaKontrak = lamaKontrak;
+    }
+
+    @Override
+    public void bertugas() {
+        super.bertugas();
+    }
+
+    @Override
+    public void mangajukanKenaikanJabatan() {
+        super.mangajukanKenaikanJabatan();
     }
 }
