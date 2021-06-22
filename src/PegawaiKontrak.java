@@ -9,4 +9,28 @@ public class PegawaiKontrak {
     public void pemutusanKontrak(){
 
     }
+
+    public String getNikk() {
+        return nikk;
+    }
+
+    public void setNikk(String nikk) {
+        this.nikk = nikk;
+    }
+
+    public String getAsalInstansi() {
+        return asalInstansi;
+    }
+
+    public void setAsalInstansi(String asalInstansi) {
+        this.asalInstansi = asalInstansi;
+    }
+
+    public int getLamaKontrak() {
+        return lamaKontrak;
+    }
+
+    public void setLamaKontrak(int lamaKontrak) {
+        this.lamaKontrak = lamaKontrak;
+    }
 }

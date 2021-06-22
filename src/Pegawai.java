@@ -42,4 +42,68 @@ public class Pegawai {
         this.nik = nik;
         this.nama = nama;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getNik() {
+        return nik;
+    }
+
+    public void setNik(String nik) {
+        this.nik = nik;
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public Date getTanggalLahir() {
+        return tanggalLahir;
+    }
+
+    public void setTanggalLahir(Date tanggalLahir) {
+        this.tanggalLahir = tanggalLahir;
+    }
+
+    public String getAlamat() {
+        return alamat;
+    }
+
+    public void setAlamat(String alamat) {
+        this.alamat = alamat;
+    }
+
+    public String getJabatan() {
+        return jabatan;
+    }
+
+    public void setJabatan(String jabatan) {
+        this.jabatan = jabatan;
+    }
+
+    public String getGolongan() {
+        return golongan;
+    }
+
+    public void setGolongan(String golongan) {
+        this.golongan = golongan;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
 }
